@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://roundhouse.proxy.rlwy.net:38007/railway
+    username: postgres
+    password: PsfzcqTZYzpASUugOtojEzjerbvscrwX
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql:
+    database: POSTGRESQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
